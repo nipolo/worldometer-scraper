@@ -12,6 +12,8 @@
     ```console 
     cd solution_folder/ConsoleApp
     dotnet run --region All
+    dotnet run --region Europe
     dotnet run --region NorthAmerica
     ```
+	or **run with VS2019/VS2022**
 1. Check in the DB that the records are saved, console output and CSV file in the Exported folder
