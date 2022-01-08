@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{01BD8C0B-4E38-4CEB-BA7F-5179D54C5F57}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\WorldometerScraperTask.docx = Documentation\WorldometerScraperTask.docx
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BF.WorldometerScraper.ConsoleApp", "ConsoleApp\BF.WorldometerScraper.ConsoleApp.csproj", "{EC1A4EB3-2368-4C5B-814A-A4BA0F341032}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BF.WorldometerScraper.Application", "Application\BF.WorldometerScraper.Application.csproj", "{B8BA79D1-C3DB-4DA2-9A7F-5281B8DCE9E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BF.WorldometerScraper.Data", "Data\BF.WorldometerScraper.Data.csproj", "{F3513021-D8C2-4F60-A77D-5813E73E2080}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BF.WorldometerScraper.Domain", "Domain\BF.WorldometerScraper.Domain.csproj", "{70B3CDA0-717C-425F-BBDA-F257175B238D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC1A4EB3-2368-4C5B-814A-A4BA0F341032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1A4EB3-2368-4C5B-814A-A4BA0F341032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1A4EB3-2368-4C5B-814A-A4BA0F341032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1A4EB3-2368-4C5B-814A-A4BA0F341032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BA79D1-C3DB-4DA2-9A7F-5281B8DCE9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BA79D1-C3DB-4DA2-9A7F-5281B8DCE9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BA79D1-C3DB-4DA2-9A7F-5281B8DCE9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BA79D1-C3DB-4DA2-9A7F-5281B8DCE9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3513021-D8C2-4F60-A77D-5813E73E2080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3513021-D8C2-4F60-A77D-5813E73E2080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3513021-D8C2-4F60-A77D-5813E73E2080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3513021-D8C2-4F60-A77D-5813E73E2080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B3CDA0-717C-425F-BBDA-F257175B238D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B3CDA0-717C-425F-BBDA-F257175B238D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B3CDA0-717C-425F-BBDA-F257175B238D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B3CDA0-717C-425F-BBDA-F257175B238D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA94D12F-1349-40D1-B28E-ACC9EF1E41BB}
+	EndGlobalSection
+EndGlobal
