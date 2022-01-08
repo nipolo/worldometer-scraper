@@ -1,7 +1,7 @@
 ### How to run
 1. Clone the repo in local folder
-1. Install Chrome and check the chrome version
-1. Download chromedriver for the Chrome version from [here](https://chromedriver.chromium.org/downloads) and copy to solution_folder/ConsoleApp/chrome
+1. Install Chrome and check the Chrome's version
+1. Download chromedriver corresponding to Chrome's version from [here](https://chromedriver.chromium.org/downloads) and copy to solution_folder/ConsoleApp/chrome
 1. Create the DB and update with latest migrations
     ```console 
     cd solution_folder/Data
@@ -14,4 +14,4 @@
     dotnet run --region All
     dotnet run --region NorthAmerica
     ```
-1. Check in the DB that the records are saved
+1. Check in the DB that the records are saved, console output and CSV file in the Exported folder
