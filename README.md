@@ -8,7 +8,11 @@
     dotnet ef database update
     ```
 1. Change ConnectionString for DefaultConnection in appsettings.json that corresponds to the right location of the already created db file
-1. Run the console app with parameter
+1. Install globally dotnet-ef
+   ```Console
+   dotnet tool install --global dotnet-ef
+   ```
+3. Run the console app with parameter
     ```console 
     cd solution_folder/ConsoleApp
     dotnet run --region All
