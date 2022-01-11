@@ -7,7 +7,7 @@
     cd solution_folder/Data
     dotnet ef database update
     ```
-1. Change ConnectionString for DefaultConnection in appsettings.json that corresponds to the right location of the already created db file
+1. Change ConnectionString for DefaultConnection in solution_folder/ConsoleApp/appsettings.json that corresponds to the right location of the already created db file
 1. Install globally dotnet-ef
    ```Console
    dotnet tool install --global dotnet-ef
